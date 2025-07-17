@@ -1,124 +1,13 @@
-/* Navbar/Brand section styles */
-.navbar-default {
-  background: #cccccc;
-  border: none;
-  margin-bottom: 0;
-}
-
-.navbar-header {
-  margin-left: 0;
-}
-
-.navbar-brand {
-  font-size: 2.3em;
-  font-weight: bold;
-  margin-left: 7px;
-  letter-spacing: 0.5px;
-  color: #232323 !important;
-}
-
-/* Remove border on navbar for minimal look */
-.navbar {
-  border-radius: 0;
-}
-
-/* Page Heading */
-.menu-title {
-  font-size: 2.4em;
-  font-weight: 500;
-  margin-top: 15px;
-  margin-bottom: 24px;
-  letter-spacing: 0.5px;
-}
-
-/* Main menu section */
-.menu-section {
-  background: #bfbfbf;
-  min-height: 900px;
-  margin-bottom: 30px;
-  margin-top: 15px;
-  padding: 18px 9px 20px 12px;
-  border-radius: 3px;
-}
-
-/* Menu Item Title */
-.menu-item-title {
-  width: 100%;
-  background: #989898;
-  text-align: center;
-  font-size: 1.6em;
-  font-weight: bold;
-  padding: 3px 0 2px 0;
-  margin-bottom: 12px;
-  border-radius: 2px;
-}
-
-/* Menu Description */
-.menu-item-desc {
-  font-size: 1.1em;
-  color: #222;
-  line-height: 1.45em;
-}
-
-/* Mobile menu dropdown (full width) */
-.menu-dropdown {
-  width: 100vw;
-  position: relative;
-  left: -15px;
-  background: #bfbfbf;
-  margin-bottom: 0;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-
-.menu-dropdown > li > a {
-  font-size: 1.3em;
-  font-weight: bold;
-  color: #222;
-  background: #bfbfbf;
-  text-align: center;
-  border-bottom: 1.5px solid #9b9b9b;
-  padding: 12px 0;
-}
-
-.menu-dropdown > li:last-child > a {
-  border-bottom: none;
-}
-
-/* Hide the desktop/tablet menu */
-@media (min-width: 768px) {
-  .menu-dropdown {
-    display: none !important;
-  }
-}
-
-/* Responsive tweaks */
-@media (max-width: 767px) {
-  .menu-section {
-    min-height: 430px;
-    padding-top: 12px;
-    padding-bottom: 16px;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-  .menu-title {
-    font-size: 1.6em;
-    margin-top: 13px;
-    margin-bottom: 12px;
-  }
-  .menu-item-title {
-    font-size: 1.2em;
-    padding: 4px 0 2px 0;
-    margin-bottom: 7px;
-  }
-  .menu-item-desc {
-    font-size: 1em;
-  }
-}
-
-/* Prevent unwanted horizontal scroll */
+/* styles.css */
 body {
-  overflow-x: hidden;
-  background: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    margin-top: 20px;
 }
